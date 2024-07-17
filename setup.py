@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'bluerov2_sensors = intro_to_ros.bluerov2_sensors:main',
         ],
     },
 )
